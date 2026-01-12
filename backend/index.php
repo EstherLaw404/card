@@ -1,5 +1,6 @@
 <?php
 header('Content-Type: application/json');
+header("Access-Control-Allow-Origin: *");
 
 // Get number of people from query parameter
 $numPeople = isset($_GET['people']) ? intval($_GET['people']) : 0;
