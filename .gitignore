@@ -1,0 +1,13 @@
+# Node / React
+frontend/node_modules/
+frontend/build/
+
+# PHP / Apache
+backend/vendor/
+
+# Docker
+*.log
+*.env
+
+# System files
+.DS_Store
