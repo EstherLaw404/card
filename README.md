@@ -41,3 +41,6 @@ Frontend: http://localhost:3000
 
 Backend API: http://localhost:5000/index.php?people=1
 
+
+time for develop/build this project roughly 1.5 hour
+Using AI for writing README and helping on debug errors, and fixing some syntax error
