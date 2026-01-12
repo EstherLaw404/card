@@ -42,7 +42,7 @@ Frontend: http://localhost:3000
 Backend API: http://localhost:5000/index.php?people=1
 
 
-
+## AI helper
 
 time for develop/build this project roughly 1.5 hour
 
