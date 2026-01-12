@@ -5,9 +5,14 @@ function App() {
   const [cards, setCards] = useState([]);
 
   const fetchCards = async () => {
-    const response = await fetch(`http://localhost:5000/index.php?people=${numPeople}`);
-    const data = await response.json();
-    setCards(data);
+    try {
+      const response = await fetch(`http://localhost:5000/index.php?people=${numPeople}`);
+      const data = await response.json();
+      setCards(data);
+    } catch (err) {
+      console.error(err);
+      alert("Error fetching cards");
+    }
   };
 
   return (
